@@ -113,7 +113,7 @@ const styles = StyleSheet.create({
   },
   picker: {
     width: "100%",
-    height: 120,
+    height: 125,
   },
   factContainer: {
     marginTop: 20,
