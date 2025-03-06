@@ -1,3 +1,13 @@
+/** 
+ * Features:
+ * - Month and day selection using React Native Picker
+ * - Automatic fetching of facts when both month and day are selected
+ * - Error handling for API calls
+ * - Responsive design for different screen sizes
+ * 
+ * API Used: NumbersAPI from RapidAPI
+ */
+
 import React, { useState, useEffect } from "react";
 import { View, Text, StyleSheet, Platform } from "react-native";
 import { Picker } from "@react-native-picker/picker";
